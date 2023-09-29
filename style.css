@@ -1,0 +1,44 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Rubik:wght@300;400;500&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    min-height: 0px;
+    overflow: visible;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    background: hsl(212, 45%, 89%);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+p,.main{
+    padding: 10px !important;
+}
+
+.light{
+    background: hsl(0, 0%, 100%);
+}
+img,.w{
+    width: 250px;
+    text-align: center;
+}
+.main,img{
+    border-radius: 10px;
+}
+b{
+    font-weight: 700;
+}
+.w{
+    font-family: 400;
+} 
+.p-more{
+    padding-top: 10px;
+}
